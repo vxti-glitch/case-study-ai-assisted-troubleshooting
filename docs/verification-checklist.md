@@ -21,4 +21,3 @@
 - Confirm no unrelated function regressed.
 - Record the actual root cause instead of the initial AI suggestion.
 - Add useful findings to a knowledge base without sensitive data.
-

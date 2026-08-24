@@ -63,4 +63,3 @@ The workflow was reconstructed from personal troubleshooting practice. It does n
 Ticket intake, hypothesis-driven troubleshooting, data minimization, source verification, change control, documentation, and escalation readiness.
 
 > AI output can be confidently wrong. Commands that alter registry, identity, permissions, storage, networking, or security controls require independent verification and an approved recovery path.
-

@@ -43,4 +43,3 @@ Record the error and reproduction steps without personal or organizational data.
 ## Escalation Package
 
 Include the sanitized symptom, timestamps, diagnostic results, failed hypotheses, and the exact point where additional access or expertise is required.
-
