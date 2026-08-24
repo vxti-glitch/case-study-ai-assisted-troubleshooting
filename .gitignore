@@ -1,0 +1,6 @@
+.env
+*.log
+exports/
+private-notes/
+screenshots/private/
+
