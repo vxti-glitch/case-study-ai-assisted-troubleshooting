@@ -1,5 +1,6 @@
 # Case Study: AI-Assisted Troubleshooting
 
+[![Python tests](https://github.com/vxti-glitch/case-study-ai-assisted-troubleshooting/actions/workflows/python-tests.yml/badge.svg)](https://github.com/vxti-glitch/case-study-ai-assisted-troubleshooting/actions/workflows/python-tests.yml)
 ![Case study](https://img.shields.io/badge/Format-sanitized_case_study-0F766E)
 ![Control](https://img.shields.io/badge/Human_verification-required-2563EB)
 
@@ -53,6 +54,16 @@ flowchart TD
 - [Diagnostic log template](docs/diagnostic-log-template.md)
 - [Verification checklist](docs/verification-checklist.md)
 - [Sanitized example diagnostic log](examples/sanitized-diagnostic-log.md)
+
+## Companion Tool
+
+[diagnostic_log_builder.py](src/diagnostic_log_builder.py) creates a sanitized troubleshooting log from a local symptom note. It redacts common email addresses, IP addresses, URLs, Windows user paths, and token-like values before writing a Markdown report. It does not contact an AI service or any external system.
+
+~~~powershell
+python .\src\diagnostic_log_builder.py --ticket-id LAB-AI-001 --device LAB-DEVICE --symptom-file .\examples\raw-symptom.txt --out .\reports\diagnostic-log.md
+~~~
+
+Review the output before sharing it. Pattern-based redaction is a safety layer, not a substitute for human review.
 
 ## Evidence Limitations
 

@@ -1,0 +1,5 @@
+SAMPLE-USER reports that the application fails after an update.
+Contact: sample.user@example.invalid
+Path: C:\Users\SampleUser\AppData\Local\Example
+Service URL: http://10.20.30.40:8080/status
+Authorization: sample-token-do-not-use
