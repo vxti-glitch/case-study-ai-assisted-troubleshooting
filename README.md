@@ -1,5 +1,7 @@
 # Case Study: AI-Assisted Troubleshooting
 
+> **DEPRECATED — archive after this notice is merged.** The reusable AI-review rules have moved to the profile's `AI_ASSISTANCE.md` and each retained project's build/verification note. History is preserved for transparency. The regex redaction in this repository is incomplete pattern matching, not data-loss prevention; manually review sensitive material before any external use.
+
 [![Python tests](https://github.com/vxti-glitch/case-study-ai-assisted-troubleshooting/actions/workflows/python-tests.yml/badge.svg)](https://github.com/vxti-glitch/case-study-ai-assisted-troubleshooting/actions/workflows/python-tests.yml)
 ![Case study](https://img.shields.io/badge/Format-sanitized_case_study-0F766E)
 ![Control](https://img.shields.io/badge/Human_verification-required-2563EB)
